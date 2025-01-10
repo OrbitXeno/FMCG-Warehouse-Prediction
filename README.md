@@ -39,10 +39,10 @@ The aim of this project is to improve FMCG warehouse operations by:
 
 4. **Run the Notebook**:
   - Open the Jupyter notebook Optimizing_FMCG_Warehouse_Operations_Using_Predictive_Analytics.ipynb.
-  -Execute the cells to:
+  - `Execute the cells to:
   -Perform Exploratory Data Analysis (EDA).
   -Train the predictive model.
-  -Evaluate the model.
+- EValuate the model
 4. **Save and Load the Model**:  
    After running the notebook, you can save the trained model to your local system using `joblib`:
    ```python
