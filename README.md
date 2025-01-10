@@ -43,13 +43,16 @@ The aim of this project is to improve FMCG warehouse operations by:
   -Perform Exploratory Data Analysis (EDA).
   -Train the predictive model.
   -Evaluate the model.
-4. **Save and Load the Model**:
-    After running the notebook, you can save the trained model to your local system using joblib:
-```bash
-  import joblib
-  joblib.dump(rf_regressor, 'rf_regressor_model.pkl')
-  **Load the model for future use:**
-  loaded_model = joblib.load('rf_regressor_model.pkl')
+4. **Save and Load the Model**:  
+   After running the notebook, you can save the trained model to your local system using `joblib`:
+   ```python
+   import joblib
+   # Save the model
+   joblib.dump(rf_regressor, 'rf_regressor_model.pkl')
+
+   # Load the model for future use
+   loaded_model = joblib.load('rf_regressor_model.pkl')
+
 ## Dependencies
 The project requires the following Python libraries:
 
