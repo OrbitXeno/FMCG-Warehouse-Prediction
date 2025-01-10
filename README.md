@@ -87,7 +87,7 @@ R² Score: 0.994
 Mean Squared Error (MSE): 768002.55
 For classification tasks, metrics like accuracy, precision, and recall can also be included.
 
-Real-World Applications
+## Real-World Applications          
 Demand Forecasting: Predict stock levels to prevent overstocking or understocking.
 Logistics Optimization: Plan transport routes and schedules.
 Warehouse Management: Allocate resources for efficient operations.
