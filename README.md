@@ -26,15 +26,17 @@ The aim of this project is to improve FMCG warehouse operations by:
 - **Rows**: 5
 - **Columns**: 24
 
-## Steps to Run the Project  
+## Steps to Run the Project
 
 1. **Clone the Repository**:
-```bash
+   ```bash
    git clone https://github.com/OrbitXeno/FMCG-Warehouse-Prediction.git
    cd FMCG-Warehouse-Prediction
+
 3. **Install Dependencies**:
    ```bash
-    pip install -r requirements.txt
+   pip install -r requirements.txt
+
 4. **Run the Notebook**:
   - Open the Jupyter notebook Optimizing_FMCG_Warehouse_Operations_Using_Predictive_Analytics.ipynb.
   -Execute the cells to:
