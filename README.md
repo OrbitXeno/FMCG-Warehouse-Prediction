@@ -66,26 +66,7 @@ The project requires the following Python libraries:
 Install all dependencies with:
 ```bash
 pip install -r requirements.txt
-
-Here's the corrected and properly formatted **Markdown** version for your `README.md`:
-
-```markdown
-## Dependencies
-The project requires the following Python libraries:
-
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
-- `joblib`
-
-Install all dependencies with:
-```bash
-pip install -r requirements.txt
 ```
-
-
 ## Key Features
 
 - **EDA**:  
