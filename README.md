@@ -26,9 +26,62 @@ The aim of this project is to improve FMCG warehouse operations by:
 - **Rows**: 5
 - **Columns**: 24
 
-## Steps to Run the Project
+## Steps to Run the Project  
 
 1. **Clone the Repository**:
-   ```bash
    git clone https://github.com/OrbitXeno/FMCG-Warehouse-Prediction.git
    cd FMCG-Warehouse-Prediction
+2. **Install Dependencies**:
+   pip install -r requirements.txt
+3. **Run the Notebook**:
+  - Open the Jupyter notebook Optimizing_FMCG_Warehouse_Operations_Using_Predictive_Analytics.ipynb.
+  -Execute the cells to:
+  -Perform Exploratory Data Analysis (EDA).
+  -Train the predictive model.
+  -Evaluate the model.
+4. **Save and Load the Model**:
+    After running the notebook, you can save the trained model to your local system using joblib:
+  import joblib
+  joblib.dump(rf_regressor, 'rf_regressor_model.pkl')
+  **Load the model for future use:**
+  loaded_model = joblib.load('rf_regressor_model.pkl')
+## Dependencies
+The project requires the following Python libraries:
+
+- `pandas`
+- `numpy`
+- `matplotlib`
+- `seaborn`
+- `scikit-learn`
+- `joblib`
+
+Install all dependencies with:
+```bash
+pip install -r requirements.txt
+
+
+##  Key Features
+EDA:
+Visualizes and identifies trends in the data.
+Model Training:
+Builds a predictive model to estimate product weight.
+Model Evaluation:
+Generates performance metrics like accuracy and error scores.
+Visualization:
+Includes charts and heatmaps to explain data patterns.
+
+## Model File
+The trained model can be saved to your local system using the code provided in the notebook.
+The saved file (rf_regressor_model.pkl) can be loaded and used without retraining.
+Classification Report
+The trained model produces the following performance metrics (as an example, update with actual values):
+
+R² Score: 0.994
+Mean Squared Error (MSE): 768002.55
+For classification tasks, metrics like accuracy, precision, and recall can also be included.
+
+Real-World Applications
+Demand Forecasting: Predict stock levels to prevent overstocking or understocking.
+Logistics Optimization: Plan transport routes and schedules.
+Warehouse Management: Allocate resources for efficient operations.
+Cost Reduction: Minimize operational costs using optimized predictions.
