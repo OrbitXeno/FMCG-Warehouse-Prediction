@@ -29,11 +29,13 @@ The aim of this project is to improve FMCG warehouse operations by:
 ## Steps to Run the Project  
 
 1. **Clone the Repository**:
+```bash
    git clone https://github.com/OrbitXeno/FMCG-Warehouse-Prediction.git
    cd FMCG-Warehouse-Prediction
-2. **Install Dependencies**:
-   pip install -r requirements.txt
-3. **Run the Notebook**:
+3. **Install Dependencies**:
+   ```bash
+    pip install -r requirements.txt
+4. **Run the Notebook**:
   - Open the Jupyter notebook Optimizing_FMCG_Warehouse_Operations_Using_Predictive_Analytics.ipynb.
   -Execute the cells to:
   -Perform Exploratory Data Analysis (EDA).
@@ -41,6 +43,7 @@ The aim of this project is to improve FMCG warehouse operations by:
   -Evaluate the model.
 4. **Save and Load the Model**:
     After running the notebook, you can save the trained model to your local system using joblib:
+```bash
   import joblib
   joblib.dump(rf_regressor, 'rf_regressor_model.pkl')
   **Load the model for future use:**
@@ -58,7 +61,6 @@ The project requires the following Python libraries:
 Install all dependencies with:
 ```bash
 pip install -r requirements.txt
-
 
 ##  Key Features
 EDA:
