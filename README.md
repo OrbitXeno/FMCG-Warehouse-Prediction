@@ -23,7 +23,7 @@ The aim of this project is to improve FMCG warehouse operations by:
   - `Location_type`, `zone`: Location details of the warehouse.
   - `num_refill_req_l3m`, `storage_issue_reported_l3m`: Operational metrics for the warehouse.
   - `product_wg_ton`: Target variable representing the weight of products in tons.
-- **Rows**: 1000 (replace this with the actual count)
+- **Rows**: 5
 - **Columns**: 24
 
 ## Steps to Run the Project
